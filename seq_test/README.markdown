@@ -1,12 +1,12 @@
-#Simple hypothesis sequential test
+# Simple hypothesis sequential test  
 Test is run for each parameter 1000 times   
-###Some predefined values
+### Some predefined values  
 Distribution: Uniform on [-1, 7] (Variant 25)  
 &alpha;<sub>0</sub>=0.05  
 &beta;<sub>0</sub>=0.05  
 Chosen &alpha;<sub>0</sub> and &beta;<sub>0</sub> do not guaranty that actual &alpha; and &beta; will be same.  
-&alpha;<sub>0</sub> and &beta;<sub>0</sub> are used to calculate confidence interval [C<sub>0</sub>; C<sub>1</sub>]
-###Example of script output
+&alpha;<sub>0</sub> and &beta;<sub>0</sub> are used to calculate confidence interval [C<sub>0</sub>; C<sub>1</sub>]  
+### Example of script output  
 ```
 +---------------+---------------+---------------+--------------+-------+-------+
 | distribution  |  alternative  |   Euclidean   |     mean     | alpha | beta  |
